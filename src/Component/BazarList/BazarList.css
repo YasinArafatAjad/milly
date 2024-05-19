@@ -1,0 +1,22 @@
+#bazarList{
+    background: url(/src/Assets/Images/me.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(1px);
+    position: relative;
+}
+#bazarList::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.bazarList_table{
+    background: rgba(225, 225, 225, 0.711);
+}

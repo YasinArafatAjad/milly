@@ -1,0 +1,16 @@
+.navItem ul li a:hover .navline,.navItem ul li a:active .navline{
+    width: 75%;
+}
+.navItem{
+    backdrop-filter: blur(4px);
+}
+@media all and (min-width:1024px){
+    .navItem{
+        backdrop-filter:unset
+    }
+}
+.lazy-load-image-background.blur.lazy-load-image-loaded > img {
+    opacity: 1;
+    transition: opacity .3s;
+    max-height: 80px;
+}

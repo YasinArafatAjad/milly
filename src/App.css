@@ -1,0 +1,14 @@
+/* common css start */
+*{scroll-behavior: smooth;}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+}
+/* common css end */
