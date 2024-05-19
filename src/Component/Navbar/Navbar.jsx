@@ -1,6 +1,6 @@
 import './Navbar.css';
-import Logo from './img/Milly_logo.png'
-import { a } from "react-scroll";
+import Logo from './img/Milly_logo.png';
+// import { a } from "react-scroll";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { FaBarsStaggered,FaXmark } from "react-icons/fa6";
