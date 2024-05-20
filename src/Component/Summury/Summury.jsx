@@ -34,17 +34,16 @@ console.log(result);
             <section id="summury" className="py-20 bg-[#e35959]">
                 <h1 className="heading text-center text-white text-2xl mb-4 underline">Summury of April-May (2024)</h1>
                 <div className="summury_May text-center text-lg text-[#1f2937]">
-                    <p className="text-xl">বাজার খরচঃ <span className="BazarC">1490+4635</span> টাকা</p>
-                    <p className="text-xl">মোট বাজার খরচঃ 6125 টাকা</p>
+                    <p className="text-xl">বাজার খরচঃ <span className="BazarC">1490+5345</span> টাকা</p>
+                    <p className="text-xl">মোট বাজার খরচঃ 6835 টাকা</p>
                     <p className="text-xl">বাড়তি খরচঃ 1950 টাকা</p>
-                    <p className="text-xl">মোট মিলঃ 52+180 = 232</p>
+                    <p className="text-xl">মোট মিলঃ 52+195 = 247</p>
                     <br />
                     <p className="text-xl">মোট জমাঃ 9000 টাকা</p>
-                    <p className="text-xl">মোট খরচঃ 8075 টাকা</p>
+                    <p className="text-xl">মোট খরচঃ 8785 টাকা</p>
                     <br />
-                    <p className="text-xl">হ্যান্ড-ক্যাশঃ 925 টাকা</p>
+                    <p className="text-xl">হ্যান্ড-ক্যাশঃ 215 টাকা</p>
                     <p className="text-xl">মিল রেটঃ -</p>
-
                 </div>
             </section>
         </>

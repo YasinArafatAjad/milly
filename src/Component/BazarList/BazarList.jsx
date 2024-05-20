@@ -56,49 +56,49 @@ const BazarList = () => {
                             </tr>
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">07</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">15/05/24</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">16/05/24</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2  text-center">সাগর-নুহাশ</td>
                                 <td className="py-3 px-1 text-lg font-sans capitalize border-2 text-center font-bold text-green-700">Done</td>
                             </tr>
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">08</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">17/05/24</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">18/05/24</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2  text-center">সিয়াম-আলভি</td>
                                 <td className="py-3 px-1 text-lg font-sans capitalize border-2 text-center font-bold text-green-700">Done</td>
                             </tr>
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">09</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">19/05/24</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">20/05/24</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2  text-center">সাগর-নুহাশ</td>
-                                <td className="py-3 px-1 text-lg font-sans capitalize border-2 text-center font-bold"></td>
+                                <td className="py-3 px-1 text-lg font-sans capitalize border-2 text-center font-bold text-green-700">Done</td>
                             </tr>
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">10</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">21/05/24</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">22/05/24</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2  text-center">সিয়াম-আলভি</td>
                                 <td className="py-3 px-1 text-lg font-sans capitalize border-2 text-center font-bold"></td>
                             </tr>
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">11</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">23/05/24</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">24/05/24</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2  text-center">সাগর-নুহাশ</td>
                                 <td className="py-3 px-1 text-lg font-sans capitalize border-2 text-center font-bold"></td>
                             </tr>
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">12</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">25/05/24</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">26/05/24</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2  text-center">সিয়াম-আলভি</td>
                                 <td className="py-3 px-1 text-lg font-sans capitalize border-2 text-center font-bold"></td>
                             </tr>
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">13</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">27/05/24</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">28/05/24</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2  text-center">আজাদ-প্রশান্ত</td>
                                 <td className="py-3 px-1 text-lg font-sans capitalize border-2 text-center font-bold"></td>
                             </tr>
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">14</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">29/05/24</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">30/05/24</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2  text-center">সাগর-নুহাশ</td>
                                 <td className="py-3 px-1 text-lg font-sans capitalize border-2 text-center font-bold"></td>
                             </tr>
