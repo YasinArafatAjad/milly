@@ -307,7 +307,7 @@ class Meal extends Component {
                                 </tr>
                             </table>
                             {/* summury of May */}
-                            <p className=" text-[#fcfdfd] flex gap-1 items-center"><FaCarrot />মোট মিলঃ 195 টি ।</p>
+                            <p className=" text-[#fcfdfd] flex gap-1 items-center"><FaCarrot />মোট মিলঃ 210 টি ।</p>
                             
                             <h3 className="ms-4 mb-3 text-center text-[#fcfdfd] flex items-center gap-1"><LiaNotesMedicalSolid size={23}/> মিলের হিসাব (এপ্রিল-২০২৪):</h3>
                             <table border={0} cellPadding={0} cellSpacing={0} className=' meal_table text-center shadow-xl w-[80vw]'>
