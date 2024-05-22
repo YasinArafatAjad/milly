@@ -117,7 +117,7 @@ class Meal extends Component {
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'></td>                                    
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'></td>                                    
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'></td>                                    
@@ -128,7 +128,7 @@ class Meal extends Component {
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'></td>                                    
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'></td>                                    
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'></td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>8</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>5.5</td>
                                 </tr>
                                 <tr>
                                     <td className='uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>সাগর</td>
@@ -307,7 +307,7 @@ class Meal extends Component {
                                 </tr>
                             </table>
                             {/* summury of May */}
-                            <p className=" text-[#fcfdfd] flex gap-1 items-center"><FaCarrot />মোট মিলঃ 210.5 টি ।</p>
+                            <p className=" text-[#fcfdfd] flex gap-1 items-center"><FaCarrot />মোট মিলঃ 208 টি ।</p>
                             
                             <h3 className="ms-4 mb-3 text-center text-[#fcfdfd] flex items-center gap-1"><LiaNotesMedicalSolid size={23}/> মিলের হিসাব (এপ্রিল-২০২৪):</h3>
                             <table border={0} cellPadding={0} cellSpacing={0} className=' meal_table text-center shadow-xl w-[80vw]'>
