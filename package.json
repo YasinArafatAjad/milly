@@ -14,7 +14,6 @@
     "react-facebook": "^9.0.12",
     "react-icons": "^5.1.0",
     "react-lazy-load-image-component": "^1.6.0",
-    "react-messenger-customer-chat": "^0.8.0",
     "react-router-dom": "^6.23.0",
     "react-scroll": "^1.9.0"
   },
