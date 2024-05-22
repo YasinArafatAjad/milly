@@ -83,7 +83,7 @@ const BazarCost = () => {
                             </tr>
                         </table>   
                         {/* summury of May */}
-                        <p className=" text-[#fcfdfd] flex gap-1 items-center mb-16"><GiReceiveMoney />মোট বাজার খরচঃ 5725 টাকা ।</p>  
+                        <p className=" text-[#fcfdfd] flex gap-1 items-center mb-16"><GiReceiveMoney />মোট বাজার খরচঃ 5340 টাকা ।</p>  
 
                         <h3 className="ms-4 mb-3 text-center text-[#fcfdfd] flex items-center gap-1"><LiaNotesMedicalSolid size={23}/> বাজার খরচ (এপ্রিল-২০২৪):</h3>
                         <table className="bazarCost_table text-left shadow-lg" border={0} cellPadding={0} cellSpacing={0}>
