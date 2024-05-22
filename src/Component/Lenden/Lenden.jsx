@@ -32,8 +32,8 @@ const lenden = () => {
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">03</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">আলভি</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">500+500+</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1000</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">500+500+500</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1500</td>
                             </tr>
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">04</td>
@@ -56,12 +56,12 @@ const lenden = () => {
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">07</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">নিলয়</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">500+</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">500</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">500+500</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1000</td>
                             </tr>
                         </table>
                         {/* summury of April-May*/}
-                        <p className=" text-[#fcfdfd] flex gap-1 items-center"><GiPayMoney />মোট জমাঃ ৯,০০০ টাকা ।</p>
+                        <p className=" text-[#fcfdfd] flex gap-1 items-center"><GiPayMoney />মোট জমাঃ 10,000 টাকা ।</p>
                     </div>
                 </div>
             </section>
