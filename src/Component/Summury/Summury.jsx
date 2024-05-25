@@ -37,7 +37,7 @@ console.log(result);
                     <p className="text-xl">বাজার খরচঃ <span className="BazarC">1490+6415</span> টাকা</p>
                     <p className="text-xl">মোট বাজার খরচঃ 7905 টাকা</p>
                     <p className="text-xl">বাড়তি খরচঃ 1950 টাকা</p>
-                    <p className="text-xl">মোট মিলঃ 52+231 = 283
+                    <p className="text-xl">মোট মিলঃ 52+238 = 290
                     </p>
                     <br />
                     <p className="text-xl">মোট জমাঃ 10,000 টাকা</p>
