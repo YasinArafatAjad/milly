@@ -44,8 +44,8 @@ const lenden = () => {
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">05</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">প্রশান্ত</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">500+1000</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1500</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">500+1000+400+</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1900</td>
                             </tr>
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">06</td>
