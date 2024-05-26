@@ -61,7 +61,7 @@ const lenden = () => {
                             </tr>
                         </table>
                         {/* summury of April-May*/}
-                        <p className=" text-[#fcfdfd] flex gap-1 items-center"><GiPayMoney />মোট জমাঃ 10,000 টাকা ।</p>
+                        <p className=" text-[#fcfdfd] flex gap-1 items-center"><GiPayMoney />মোট জমাঃ 10,400 টাকা ।</p>
                     </div>
                 </div>
             </section>
