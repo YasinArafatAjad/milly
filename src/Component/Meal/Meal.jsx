@@ -7,7 +7,7 @@ class Meal extends Component {
     render() {
         return (
             <>
-                <section id="meal" className="py-20">
+                <section id="meal" className="py-20 bg-[#e35959]">
                      <div className="container">
                         <div className="col flex flex-col items-center justify-center gap-8 overflow-x-auto">
                             {/* Bazar_Date Pick */}

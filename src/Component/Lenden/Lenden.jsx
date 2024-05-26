@@ -6,7 +6,7 @@ import { GiPayMoney } from 'react-icons/gi';
 const lenden = () => {
     return (
         <>
-            <section id="lenden" className="py-20">
+            <section id="lenden" className="py-20 bg-[#e35959]">
                 <div className="container">
                     <div className="col flex flex-col items-center justify-center gap-8">
                     <h3 className="ms-4 mb-3 text-center text-[#fcfdfd] flex items-center gap-1"><LiaNotesMedicalSolid size={23}/> লেনদেনের হিসাব (এপ্রিল_মে-২০২৪):</h3>

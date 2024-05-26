@@ -1,4 +1,4 @@
-#extraCost{
+/* #extraCost{
     background: url(/src/Assets/Images/me.jpg);
     background-attachment: fixed;
     background-position: top;
@@ -16,7 +16,7 @@
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
     z-index: -1;
-}
+} */
 .extraCost_table{
     background: rgba(225, 225, 225, 0.711);
 }

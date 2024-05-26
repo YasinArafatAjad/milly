@@ -5,7 +5,7 @@ import React from 'react';
 const BazarList = () => {
     return (
         <>
-            <section id="bazarList" className="py-20">
+            <section id="bazarList" className="py-20 bg-[#e35959]">
                 <div className="container">
                     <div className="col flex flex-col items-center justify-center gap-4">
                         

@@ -6,7 +6,7 @@ import { LiaNotesMedicalSolid } from 'react-icons/lia';
 const BazarCost = () => {
     return (
         <>
-            <section id="bazarCost" className="py-20">
+            <section id="bazarCost" className="py-20 bg-[#e35959]">
                 <div className="container">
                     <div className="col flex flex-col items-center justify-center gap-4">
                         <h3 className="ms-4 mb-3 text-center text-[#fcfdfd] flex items-center gap-1"><LiaNotesMedicalSolid size={23}/> বাজার খরচ (মে-২০২৪):</h3>
