@@ -88,19 +88,19 @@ const BazarList = () => {
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">12</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">26/05/24</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2  text-center">সিয়াম-আলভি</td>
-                                <td className="py-3 px-1 text-lg font-sans capitalize border-2 text-center font-bold"></td>
+                                <td className="py-3 px-1 text-lg font-sans capitalize border-2 text-center font-bold text-green-700">Done</td>
                             </tr>
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">13</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">28/05/24</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2  text-center">সাগর-নুহাশ</td>
-                                <td className="py-3 px-1 text-lg font-sans capitalize border-2 text-center font-bold"></td>
+                                <td className="py-3 px-1 text-lg font-sans capitalize border-2 text-center font-bold text-red-500">Not...!</td>
                             </tr>
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">14</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">30/05/24</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2  text-center">সাগর-নুহাশ</td>
-                                <td className="py-3 px-1 text-lg font-sans capitalize border-2 text-center font-bold"></td>
+                                <td className="py-3 px-1 text-lg font-sans capitalize border-2 text-center font-bold text-red-500">Not...!</td>
                             </tr>
                         </table>
                         {/* List of April */}
