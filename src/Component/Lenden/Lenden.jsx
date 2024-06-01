@@ -20,8 +20,8 @@ const lenden = () => {
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">01</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">সাগর</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">500+500+500+</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1500</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">500+500+500+100+</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1600</td>
                             </tr>
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">02</td>
@@ -44,8 +44,8 @@ const lenden = () => {
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">05</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">প্রশান্ত</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">500+1000+400+</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1900</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">500+1000+400+200+</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">2100</td>
                             </tr>
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">06</td>
@@ -61,7 +61,7 @@ const lenden = () => {
                             </tr>
                         </table>
                         {/* summury of April-May*/}
-                        <p className=" text-[#fcfdfd] flex gap-1 items-center"><GiPayMoney />মোট জমাঃ 10,400 টাকা ।</p>
+                        <p className=" text-[#fcfdfd] flex gap-1 items-center"><GiPayMoney />মোট জমাঃ 10,700 টাকা ।</p>
                     </div>
                 </div>
             </section>

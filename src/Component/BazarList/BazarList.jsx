@@ -94,7 +94,7 @@ const BazarList = () => {
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">13</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">28/05/24</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2  text-center">সাগর-নুহাশ</td>
-                                <td className="py-3 px-1 text-lg font-sans capitalize border-2 text-center font-bold text-red-500">Not...!</td>
+                                <td className="py-3 px-1 text-lg font-sans capitalize border-2 text-center font-bold text-green-700">Done</td>
                             </tr>
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">14</td>

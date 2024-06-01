@@ -161,9 +161,9 @@ class Meal extends Component {
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>41</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0.5</td>                                    
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                                    
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>38.5</td>
                                 </tr>
                                 <tr>
                                     <td className='uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>নোহাশ</td>
@@ -232,8 +232,8 @@ class Meal extends Component {
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>71.5</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>5</td>                                    
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>74</td>
                                 </tr>
                                 <tr>
                                     <td className='uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>ইয়াসিন আরাফাত আজাদ</td>
@@ -267,8 +267,8 @@ class Meal extends Component {
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>62.5</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>5</td>                                    
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>65</td>
                                 </tr>
                                 <tr>
                                     <td className='uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>নিলয়</td>
@@ -307,7 +307,7 @@ class Meal extends Component {
                                 </tr>
                             </table>
                             {/* summury of May */}
-                            <p className=" text-[#fcfdfd] flex gap-1 items-center"><FaCarrot />মোট মিলঃ 286 টি ।</p>
+                            <p className=" text-[#fcfdfd] flex gap-1 items-center"><FaCarrot />মোট মিলঃ 288.5 টি ।</p>
                             
                             <h3 className="ms-4 mb-3 text-center text-[#fcfdfd] flex items-center gap-1"><LiaNotesMedicalSolid size={23}/> মিলের হিসাব (এপ্রিল-২০২৪):</h3>
                             <table border={0} cellPadding={0} cellSpacing={0} className=' meal_table text-center shadow-xl w-[80vw]'>
