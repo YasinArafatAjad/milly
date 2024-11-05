@@ -19,6 +19,8 @@ class Meal extends Component {
                                 <p className="text-white text-md">(Minimum 5 days Required)</p>
                             </div> */}
 
+
+                             {/* ============================================ */}
                             <h3 className="ms-4 mb-3 text-center text-[#fcfdfd] flex items-center gap-1"><LiaNotesMedicalSolid size={23}/> মিলের হিসাব (নভেম্বর-২০২৪):</h3>
                             <table border={0} cellPadding={0} cellSpacing={0} className=' self-start md:self-center meal_table text-center shadow-xl w-[80vw]'>
                                 <tr >
@@ -120,6 +122,8 @@ class Meal extends Component {
                             </table>                            
                             {/* summury of May */}
                             <p className=" text-[#fcfdfd] flex gap-1 items-center"><FaCarrot />মোট মিলঃ 0 টি ।</p>
+                            {/* ============================================ */}
+
 
 
                             {/* ============================================ */}
