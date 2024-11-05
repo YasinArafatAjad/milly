@@ -19,8 +19,8 @@ class Meal extends Component {
                                 <p className="text-white text-md">(Minimum 5 days Required)</p>
                             </div> */}
 
-                            <h3 className="ms-4 mb-3 text-center text-[#fcfdfd] flex items-center gap-1"><LiaNotesMedicalSolid size={23}/> মিলের হিসাব (মে-২০২৪):</h3>
-                            <table border={0} cellPadding={0} cellSpacing={0} className=' self-start meal_table text-center shadow-xl w-[80vw]'>
+                            <h3 className="ms-4 mb-3 text-center text-[#fcfdfd] flex items-center gap-1"><LiaNotesMedicalSolid size={23}/> মিলের হিসাব (নভেম্বর-২০২৪):</h3>
+                            <table border={0} cellPadding={0} cellSpacing={0} className=' self-start md:self-center meal_table text-center shadow-xl w-[80vw]'>
                                 <tr >
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>name</td>
                                     <td colSpan={31} className='uppercase bold text-lg border-2 py-3 px-1'>Meal & Date</td>
@@ -61,336 +61,426 @@ class Meal extends Component {
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>মোট মিল</td>
                                 </tr>
                                 <tr>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>আলভি</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>3</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>36</td>
+                                    <td className='Name uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>Pobitra</td>
+                                    {/* Meal Number*/}
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>3</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>
+                                    {/* Total Meal */}
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'></td>
                                 </tr>
                                 <tr>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>সিয়াম</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>8.5</td>
+                                    <td className='Name uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>Protik-1</td>
+                                    {/* Meal Number*/}
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>3</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1</td>     
+                                       {/* total meal */}
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>2.5</td>
                                 </tr>
                                 <tr>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>সাগর</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>38.5</td>
+                                    <td className='Name uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>Proshanta</td>
+                                    {/* Meal Number*/}
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>3</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                                              
+                                    {/* Total Meal */}
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>2.5</td>
                                 </tr>
                                 <tr>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>নোহাশ</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>36</td>
+                                    <td className='Name uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>Pronob</td>
+                                    {/* Meal Number*/}
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>                            
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>3</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                                
+                                    {/* Total Meal */}
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>2.5</td>
                                 </tr>
                                 <tr>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>প্রশান্ত</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>74</td>
+                                    <td className='Name uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>Protik-2</td>
+                                    {/* Meal Number*/}
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>3</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    {/* Total Meal */}
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>3</td>
                                 </tr>
-                                <tr>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>ইয়াসিন আরাফাত আজাদ</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>3</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>65</td>
-                                </tr>
-                                <tr>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>নিলয়</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0.5</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                                    
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>30.5</td>
-                                </tr>
-                            </table>
+                            </table>                            
                             {/* summury of May */}
-                            <p className=" text-[#fcfdfd] flex gap-1 items-center"><FaCarrot />মোট মিলঃ 288.5 টি ।</p>
-                            
-                            <h3 className="ms-4 mb-3 text-center text-[#fcfdfd] flex items-center gap-1"><LiaNotesMedicalSolid size={23}/> মিলের হিসাব (এপ্রিল-২০২৪):</h3>
-                            <table border={0} cellPadding={0} cellSpacing={0} className=' meal_table text-center shadow-xl w-[80vw]'>
+                            <p className=" text-[#fcfdfd] flex gap-1 items-center"><FaCarrot />মোট মিলঃ 0 টি ।</p>
+
+
+                            {/* ============================================ */}
+                            <h3 className="ms-4 mb-3 text-center text-[#fcfdfd] flex items-center gap-1"><LiaNotesMedicalSolid size={23}/> মিলের হিসাব (অক্টোবর-২০২৪):</h3>
+                            <table border={0} cellPadding={0} cellSpacing={0} className=' self-start md:self-center meal_table text-center shadow-xl w-[80vw]'>
                                 <tr >
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>name</td>
-                                    <td colSpan={7} className='uppercase bold text-lg border-2 py-3 px-1'>Meal & Date</td>
+                                    <td colSpan={31} className='uppercase bold text-lg border-2 py-3 px-1'>Meal & Date</td>
                                 </tr>
                                 <tr className='border-y-4 bg-zinc-400'>
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>নাম/তারিখ</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>০১</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>০২</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>০৩</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>০৪</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>০৫</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>০৬</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>০৭</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>০৮</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>০৯</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>১০</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>১১</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>১২</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>১৩</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>১৪</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>১৫</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>১৬</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>১৭</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>১৮</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>১৯</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>২০</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>২১</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>২২</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>২৩</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>২৪</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>২৫</td>
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>২৬</td>
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>২৭</td>
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>২৮</td>
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>২৯</td>
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>৩০</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>৩১</td>
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>মোট মিল</td>
                                 </tr>
                                 <tr>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>আলভি</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
+                                    <td className='Name uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>Pobitra</td>
+                                    {/* Meal Number*/}
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>৭.৫</td>
-                                </tr>
-                                <tr>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>সিয়াম</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>১০.৫</td>
-                                </tr>
-                                <tr>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>সাগর</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>1</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>৬.৫</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>3</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>
+                                    {/* Total Meal */}
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'></td>
                                 </tr>
                                 <tr>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>নোহাশ</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>৬.৫</td>
+                                    <td className='Name uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>Protik-1</td>
+                                    {/* Meal Number*/}
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>3</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1</td>     
+                                       {/* total meal */}
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>2.5</td>
                                 </tr>
                                 <tr>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>প্রশান্ত</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>১০.৫</td>
+                                    <td className='Name uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>Proshanta</td>
+                                    {/* Meal Number*/}
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>3</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                                              
+                                    {/* Total Meal */}
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>2.5</td>
                                 </tr>
                                 <tr>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>ইয়াসিন আরাফাত আজাদ</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>১০.৫</td>
+                                    <td className='Name uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>Pronob</td>
+                                    {/* Meal Number*/}
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>                             
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>                            
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>3</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>1.5</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                          
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                                
+                                    {/* Total Meal */}
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>2.5</td>
                                 </tr>
                                 <tr>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>নিলয়</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>০</td>
+                                    <td className='Name uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>Protik-2</td>
+                                    {/* Meal Number*/}
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>3</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2.5</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>0</td>                      
+                                    {/* Total Meal */}
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>3</td>
                                 </tr>
-                            </table>                            
-                            {/* summury of April */}
-                            <p className=" text-[#fcfdfd] flex gap-1 items-center"><FaCarrot />মোট মিলঃ ৫২ টি ।</p>
-                           
+                            </table>
+                            {/* summury of May */}
+                            <p className=" text-[#fcfdfd] flex gap-1 items-center"><FaCarrot />মোট মিলঃ 0 টি ।</p>
+                            {/* =================================================== */}
                         </div>
                      </div>
                 </section>

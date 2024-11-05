@@ -15,12 +15,12 @@ const Router = () => {
         <>
             <BrowserRouter>
                 <Routes>
-                    <Route path='/' element={<BazarListPage />} />
-                    <Route path='/meal' element={<Home/>} />
-                    <Route path='/lenden' element={<LendenPage />} />
-                    <Route path='/bazarCostPage' element={<BazarCostPage />} />
-                    <Route path='/extraCostPage' element={<ExtraCostPage />} />
-                    <Route path='/summury' element={<SummuryPage />} />
+                    <Route path='/' element={<Home/>} />
+                    {/* <Route path='/BazarList' element= {<BazarListPage />}/> */}
+                    {/* <Route path='/lenden' element={<LendenPage />} /> */}
+                    {/* <Route path='/bazarCostPage' element={<BazarCostPage />} /> */}
+                    {/* <Route path='/extraCostPage' element={<ExtraCostPage />} /> */}
+                    {/* <Route path='/summury' element={<SummuryPage />} /> */}
                     <Route path='/*' element={<ErrorPage />} />
                     {/* <Route path='/BazarListPage' element={<BazarListPage />} /> */}
                     {/* <Route path='/news*' element={<NewsPage />} /> */}
