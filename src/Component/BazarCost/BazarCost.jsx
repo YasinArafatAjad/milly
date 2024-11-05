@@ -76,11 +76,7 @@ const BazarCost = () => {
                                 <td className="py-3 px-4 text-lg text-[#222] font-sans capitalize border-2">02/11/24</td>
                                 <td className="py-3 px-4 text-lg text-[#222] font-sans capitalize border-2 text-center">450 tk</td>
                             </tr>
-                            <tr>
-                                <td className="py-3 px-4 text-lg text-[#222] font-sans capitalize border-2">13</td>
-                                <td className="py-3 px-4 text-lg text-[#222] font-sans capitalize border-2">03/11/24</td>
-                                <td className="py-3 px-4 text-lg text-[#222] font-sans capitalize border-2 text-center">55 tk</td>
-                            </tr>
+                          
                             <tr>
                                 <td className="py-3 px-4 text-lg text-[#222] font-sans capitalize border-2">14</td>
                                 <td className="py-3 px-4 text-lg text-[#222] font-sans capitalize border-2">05/11/24</td>
@@ -88,7 +84,7 @@ const BazarCost = () => {
                             </tr>
                         </table>   
                         {/* summury of May */}
-                        <p className=" text-[#fcfdfd] flex gap-1 items-center mb-16"><GiReceiveMoney />মোট বাজার খরচঃ 4822 টাকা ।</p>  
+                        <p className=" text-[#fcfdfd] flex gap-1 items-center mb-16"><GiReceiveMoney />মোট বাজার খরচঃ 4767 টাকা ।</p>  
 
                         
                     </div>
