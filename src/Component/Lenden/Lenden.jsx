@@ -19,46 +19,35 @@ const lenden = () => {
                             </tr>
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">01</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">সাগর</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">500+500+500+100+</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1600</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">Proshanta </td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1000+400+422+</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1822</td>
                             </tr>
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">02</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">ইয়াসিন আরাফাত আজাদ</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">500+600+1400</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">2500</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">Pabitra</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1000+55</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1055</td>
                             </tr>
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">03</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">আলভি</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">500+500+500</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1500</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">Pronob</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1000</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1000</td>
                             </tr>
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">04</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">সিয়াম</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">500+500+</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1000</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">Protik1</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1000+55</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1055</td>
                             </tr>
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">05</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">প্রশান্ত</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">500+1000+400+200+</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">2100</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">Protik2</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">0</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">0</td>
                             </tr>
-                            <tr>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">06</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">নুহাশ</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">500+500+</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1000</td>
-                            </tr>
-                            <tr>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">07</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">নিলয়</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">500+500</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1000</td>
-                            </tr>
+                           
                         </table>
                         {/* summury of April-May*/}
                         <p className=" text-[#fcfdfd] flex gap-1 items-center"><GiPayMoney />মোট জমাঃ 10,700 টাকা ।</p>
