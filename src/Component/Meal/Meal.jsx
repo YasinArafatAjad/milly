@@ -351,7 +351,7 @@ class Meal extends Component {
                                 </tr>
                             </table>
                             {/* summury of May */}
-                            <p className=" text-[#fcfdfd] flex gap-1 items-center"><FaCarrot />মোট মিলঃ 90.5 টি ।</p>
+                            <p className=" text-[#fcfdfd] flex gap-1 items-center"><FaCarrot />মোট মিলঃ 95.5 টি ।</p>
                             {/* =================================================== */}
                         </div>
                      </div>
