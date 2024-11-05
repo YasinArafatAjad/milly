@@ -199,7 +199,7 @@ class Meal extends Component {
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>
                                     {/* Total Meal */}
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'></td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>25.5</td>
                                 </tr>
                                 <tr>
                                     <td className='Name uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>Protik-1</td>
@@ -236,7 +236,7 @@ class Meal extends Component {
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>          
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>1</td>     
                                        {/* total meal */}
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>2.5</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>18.5</td>
                                 </tr>
                                 <tr>
                                     <td className='Name uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>Proshanta</td>
@@ -273,7 +273,7 @@ class Meal extends Component {
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                          
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                                              
                                     {/* Total Meal */}
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>2.5</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>25.5</td>
                                 </tr>
                                 <tr>
                                     <td className='Name uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>Pronob</td>
@@ -310,7 +310,7 @@ class Meal extends Component {
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                          
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>                                
                                     {/* Total Meal */}
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>2.5</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>23</td>
                                 </tr>
                                 <tr>
                                     <td className='Name uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>Protik-2</td>
