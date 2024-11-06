@@ -26,7 +26,7 @@ const lenden = () => {
                             <tr>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">02</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">Pabitra</td>
-                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1000+55</td>
+                                <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1000+55+1000</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">1055</td>
                             </tr>
                             <tr>
@@ -50,7 +50,7 @@ const lenden = () => {
                            
                         </table>
                         {/* summury of April-May*/}
-                        <p className=" text-[#fcfdfd] flex gap-1 items-center"><GiPayMoney />মোট জমাঃ 4767 টাকা ।</p>
+                        <p className=" text-[#fcfdfd] flex gap-1 items-center"><GiPayMoney />মোট জমাঃ 5822 টাকা ।</p>
                     </div>
                 </div>
             </section>
