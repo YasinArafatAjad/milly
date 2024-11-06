@@ -82,9 +82,15 @@ const BazarCost = () => {
                                 <td className="py-3 px-4 text-lg text-[#222] font-sans capitalize border-2">05/11/24</td>
                                 <td className="py-3 px-4 text-lg text-[#222] font-sans capitalize border-2 text-center">55 tk</td>
                             </tr>
+                          
+                            <tr>
+                                <td className="py-3 px-4 text-lg text-[#222] font-sans capitalize border-2">15</td>
+                                <td className="py-3 px-4 text-lg text-[#222] font-sans capitalize border-2">06/11/24</td>
+                                <td className="py-3 px-4 text-lg text-[#222] font-sans capitalize border-2 text-center">215 tk</td>
+                            </tr>
                         </table>   
                         {/* summury of May */}
-                        <p className=" text-[#fcfdfd] flex gap-1 items-center mb-16"><GiReceiveMoney />মোট বাজার খরচঃ 4767 টাকা ।</p>  
+                        <p className=" text-[#fcfdfd] flex gap-1 items-center mb-16"><GiReceiveMoney />মোট বাজার খরচঃ 4982 টাকা ।</p>  
 
                         
                     </div>
