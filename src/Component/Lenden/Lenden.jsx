@@ -47,7 +47,7 @@ const lenden = () => {
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">0</td>
                                 <td className="py-3 px-1 text-lg text-[#222] font-sans capitalize border-2">0</td>
                             </tr>
-                           
+                          
                         </table>
                         {/* summury of April-May*/}
                         <p className=" text-[#fcfdfd] flex gap-1 items-center"><GiPayMoney />মোট জমাঃ 5822 টাকা ।</p>
