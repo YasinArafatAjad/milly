@@ -9,7 +9,7 @@ const lenden = () => {
             <section id="lenden" className="py-20 bg-[#e35959]">
                 <div className="container">
                     <div className="col flex flex-col items-center justify-center gap-8">
-                    <h3 className="ms-4 mb-3 text-center text-[#fcfdfd] flex items-center gap-1"><LiaNotesMedicalSolid size={23}/> লেনদেনের হিসাব (এপ্রিল_মে-২০২৪):</h3>
+                    <h3 className="ms-4 mb-3 text-center text-[#fcfdfd] flex items-center gap-1"><LiaNotesMedicalSolid size={23}/> লেনদেনের হিসাব (অক্টোবর-নভেম্বর-২০২৪):</h3>
                         <table className="lenden_table text-center" border={0} cellPadding={0} cellSpacing={0}>
                             <tr className='border-b-4'>
                                 <td className="py-3 px-1 text-2xl font-sans bold border-2"></td>
