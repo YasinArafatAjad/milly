@@ -70,6 +70,8 @@ class Meal extends Component {
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>3</td>
                                     
                                     {/* Total Meal */}
                                     <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>10</td>
@@ -82,6 +84,8 @@ class Meal extends Component {
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>        
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>        
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>        
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>3</td>        
                                          
                                        {/* total meal */}
                                     <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>7</td>
@@ -94,6 +98,8 @@ class Meal extends Component {
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>     
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>     
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>     
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>     
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1'>3</td>     
                                     {/* Total Meal */}
                                     <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>10</td>
                                 </tr>
