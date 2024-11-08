@@ -75,7 +75,7 @@ class Meal extends Component {
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>
                                     
                                     {/* Total Meal */}
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>10</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>17</td>
                                 </tr>
                                 <tr>
                                     <td className='Name uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>Protik-1</td>
@@ -90,7 +90,7 @@ class Meal extends Component {
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>          
                                          
                                        {/* total meal */}
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>7</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>14</td>
                                 </tr>
                                 <tr>
                                     <td className='Name uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>Proshanta</td>
@@ -104,7 +104,7 @@ class Meal extends Component {
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>3</td>     
                                     <td className='uppercase bold text-lg border-2 py-3 px-1'>2</td>       
                                     {/* Total Meal */}
-                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>10</td>
+                                    <td className='uppercase bold text-lg border-2 py-3 px-1 bg-slate-400'>17</td>
                                 </tr>
                                 <tr>
                                     <td className='Name uppercase bold text-lg border-2 py-3 px-1 bg-gray-500'>Pronob</td>
